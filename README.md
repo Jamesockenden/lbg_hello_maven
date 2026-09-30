@@ -1,6 +1,6 @@
 # 🚀 Hello Maven Course Starter Java App
 
-⚙️ Super Simple Java App
+⚙️ LBG MEA Course - Super Simple Java App
 
 ## Language
 
