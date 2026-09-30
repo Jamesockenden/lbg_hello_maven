@@ -43,7 +43,7 @@ public class AppTest
     {
         // Arrange
         String actualResponse = "";
-        String expectedResponse = "Hello World!";
+        String expectedResponse = "Hello User!";
 
         // Act
         actualResponse = sayHello();
@@ -52,11 +52,11 @@ public class AppTest
     }
 
      @Test
-    public void test_sayGoodBye_should_return_Goodbye_World()
+    public void test_sayGoodBye_should_return_Goodbye_User()
     {
         // Arrange
         String actualResponse = "";
-        String expectedResponse = "Goodbye World!";
+        String expectedResponse = "Goodbye User!";
 
         // Act
         actualResponse = sayGoodbye();
@@ -65,14 +65,14 @@ public class AppTest
     }
      
     @Test
-    public void test_sayHello_should_return_World()
+    public void test_sayHello_should_return_User()
     {
         // Arrange
         String actualResponse = "";
-        String expectedResponse = "Hello World!";
+        String expectedResponse = "Hello User!";
 
         // Act
-        actualResponse = sayHelloToSomeone("World!");
+        actualResponse = sayHelloToSomeone("User!");
         // Assert
         assertEquals( expectedResponse, actualResponse);
     }

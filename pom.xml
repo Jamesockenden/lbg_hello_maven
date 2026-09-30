@@ -6,7 +6,7 @@
 
   <groupId>com.lloydsbank</groupId>
   <artifactId>james-hello-maven</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0.0</version>
 
   <name>james-hello-maven</name>
   <!-- FIXME change it to the project's website -->
@@ -27,22 +27,22 @@
     </dependency>
   </dependencies>
   <distributionManagement>
-    <!-- <snapshotRepository>
+    <snapshotRepository>
           <id>nexus.snapshot</id>
           <url>http://35.206.163.2:8081/repository/nexus-snapshots/</url>
     </snapshotRepository>
     <repository>
           <id>nexus.release</id>
           <url>http://35.206.163.2:8081/repository/nexus-releases/</url>
-    </repository> -->
-    <snapshotRepository>
+    </repository>
+    <!-- <snapshotRepository>
           <id>maven-snapshots</id>
           <url>http://35.206.179.128:8081/repository/james-maven-snapshots/</url>
     </snapshotRepository>
     <repository>
           <id>maven-releases</id>
           <url>http://35.206.179.128:8081/repository/james-maven-releases/</url>
-    </repository>
+    </repository> -->
 
 </distributionManagement>
 
