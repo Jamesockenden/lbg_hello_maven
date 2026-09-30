@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("=- Version 2.0 Snapshot -=");
+        System.out.println("=- Version 3 Release! -=");
         System.out.println(sayHello());
         String[] names = { "James", "Person B", "Person C", "Person D" };
         for (String name : names) {
