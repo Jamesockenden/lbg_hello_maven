@@ -1,21 +1,20 @@
-package com.qa;
+package com.lloydsbank;
 
 /**
  * Hello world!
- *
+ * Very Simple App
  */
 public class App 
 {
     public static void main( String[] args )
     {
         System.out.println(sayHello());
-        String[] names = { "Alice", "Bob", "Charlie", "Zena" };
+        String[] names = { "James", "Person B", "Person C", "Person D" };
         for (String name : names) {
            System.out.println(sayHelloToSomeone(name));
         }
         System.out.println(sayGoodbye());
     }
-
 
     public static String sayHello(){
         return "Hello World!";
@@ -29,3 +28,4 @@ public class App
         return "Hello " + name ;
     }
 }
+
